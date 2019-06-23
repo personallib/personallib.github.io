@@ -46,6 +46,11 @@ body {
   width: 100%;
   display: block;
 }
+#content3{
+  clear: both;
+  text-align: justify;
+  width: 100%;
+}
 #content2 a{
   color: #2F4F4F;
   text-decoration: none;
@@ -56,6 +61,23 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
+}
+#content2 p{
+    color: #696969;
+    margin-bottom: 0px;
+}
+#content3 a{
+  color: #2F4F4F;
+  text-decoration: none;
+  font-family: arial;
+  display: block;
+  padding-left: 10px;
+  margin-left: 5px;
+  padding-right: 10px;
+  border-left: 1px solid;
+}
+#content3 hr{
+  border: none;
 }
 #content1{
   color: #2F4F4F;
