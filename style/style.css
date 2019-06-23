@@ -1,3 +1,7 @@
+html, body{
+  padding: 0px;
+  margin: 0px;
+}
 body {
   background-color:  #F5F5F5;
   margin: 0px;
@@ -22,7 +26,7 @@ body {
   text-decoration: none;
   background:#DCDCDC; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
   color:#696969; /*меняем цвет ссылок*/
-  padding:0px 15px; /*добавляем отступ*/
+  padding:0px 13px; /*добавляем отступ*/
   font-family: arial; /*меняем шрифт*/
   line-height:50px; /*ровняем меню по вертикали*/
   display: block;
@@ -36,6 +40,23 @@ body {
   clear: both;
   text-align: center;
 }
+#content2{
+  clear: both;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+#content2 a{
+  color: #2F4F4F;
+  text-decoration: none;
+  background:#F0FFFF;
+  font-family: arial;
+  display: inline-block;
+  border-top: 1px solid #696969;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+}
 #content1{
   color: #2F4F4F;
   clear: both;
@@ -45,8 +66,10 @@ body {
 }
 #footer{
   background: #DCDCDC;
+  color: #696969;
   padding: 1px 0px;
   text-align: center;
+  margin-top: 5px;
 }
 .time{
   border: 1px solid #008000;
