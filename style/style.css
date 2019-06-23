@@ -1,0 +1,60 @@
+body {
+  background-color:  #F5F5F5;
+  margin: 0px;
+}
+#menu{
+  width: 100%;
+  display: block;
+}
+#menu ul{
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0px; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:0px; /*делаем отступ сверху*/
+  background:#DCDCDC; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 50px; /*задаем высоту*/
+}
+#menu li{
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:0px; /*Добавляем отступ у пунктов меню*/
+}
+#menu li a{
+  text-decoration: none;
+  background:#DCDCDC; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#696969; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block;
+  border-right: 1px solid #696969; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+#content{
+  color: #2F4F4F;
+  clear: both;
+  text-align: center;
+}
+#content1{
+  color: #2F4F4F;
+  clear: both;
+}
+#content1 p{
+
+}
+#footer{
+  background: #DCDCDC;
+  padding: 1px 0px;
+  text-align: center;
+}
+.time{
+  border: 1px solid #008000;
+  float: left;
+  display: inline;
+  border-radius: 3px;
+  padding: 2px;
+  color: #008000;
+  margin-left: 15px;
+  margin-right: 10px;
+}
