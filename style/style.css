@@ -1,10 +1,7 @@
-html, body{
-  padding: 0px;
-  margin: 0px;
-}
 body {
   background-color:  #F5F5F5;
-  margin: 0px;
+  max-width: 600px;
+  margin: auto auto;
 }
 #menu{
   width: 100%;
@@ -84,7 +81,7 @@ body {
   clear: both;
 }
 #content1 p{
-
+  margin-left: 10px;
 }
 #footer{
   background: #DCDCDC;
