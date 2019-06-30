@@ -59,16 +59,17 @@ body {
   padding-bottom: 5px;
   width: 100%;
 }
-#content2 p{
+#content2 p, #content3 p{
     color: #696969;
     margin-bottom: 0px;
+    text-align: center;
 }
 #content3 a{
   color: #2F4F4F;
   text-decoration: none;
   font-family: arial;
   display: block;
-  padding-left: 10px;
+  padding: 7px 5px;
   margin-left: 5px;
   padding-right: 10px;
   border-left: 1px solid;
